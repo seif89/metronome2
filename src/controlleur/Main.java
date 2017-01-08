@@ -40,7 +40,7 @@ public class Main extends Application{
          Adaptateur adaptateur = new Adaptateur();
          adaptateur.setVue((VueImpl)vue);
          
-         Materiel.setMatriel(new MaterielImpl());
+       //  Materiel.setMatriel(new MaterielImpl());
          
           controller = new ControlleurImpl(moteur);
           controller.setVue(adaptateur);
@@ -67,7 +67,7 @@ public class Main extends Application{
          
          
          Poll poll = new Poll(adaptateur);
-         Materiel.getHorloge().activerPeriodiquement(poll,(float) 0.2);
+        // Materiel.getHorloge().activerPeriodiquement(poll,(float) 0.2);
          
          vue.setCursseur(cmdcurs);
          vue.setStart(cmdstart);

@@ -1,6 +1,6 @@
 package controlleur;
 
-import fr.istic.vue.Vue;
+import vue.Vue;
 
 public interface Controlleur {
 	/**

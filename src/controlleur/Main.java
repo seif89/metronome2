@@ -1,14 +1,12 @@
 package controlleur;
 
-import fr.istic.command.*;
-import fr.istic.materiel.Materiel;
-import fr.istic.materiel.MaterielImpl;
-import fr.istic.moteur.Moteur;
-import fr.istic.moteur.MoteurImpl;
-import fr.istic.vue.Adaptateur;
-import fr.istic.vue.AdapterInverse;
-import fr.istic.vue.Vue;
-import fr.istic.vue.VueImpl;
+import command.*;
+import moteur.Moteur;
+import moteur.MoteurImpl;
+import vue.Adaptateur;
+import vue.AdapterInverse;
+import	vue.Vue;
+import vue.VueImpl;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;

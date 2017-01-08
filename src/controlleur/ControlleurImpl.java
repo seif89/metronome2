@@ -1,7 +1,7 @@
 package controlleur;
 
-import fr.istic.moteur.Moteur;
-import fr.istic.vue.Vue;
+import Moteur;
+import vue.Vue;
 
 public class ControlleurImpl implements Controlleur {
 

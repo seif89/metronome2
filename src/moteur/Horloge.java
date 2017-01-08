@@ -11,7 +11,9 @@ public interface Horloge {
 	void activerPeriodiquement(Command cmd, float periodeEnMiliSecondes);
 
 /**
- *  dÃ©sactivation de l'horloge  
+ *  désactivation de l'horloge  
+ *  
+ *  
  */
 	void desactiver();
 	

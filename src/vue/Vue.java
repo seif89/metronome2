@@ -1,10 +1,10 @@
 package vue;
 
-import fr.istic.command.Cursseur;
-import fr.istic.command.Dec;
-import fr.istic.command.Inc;
-import fr.istic.command.Start;
-import fr.istic.command.Stop;
+import command.Cursseur;
+import command.Dec;
+import command.Inc;
+import command.Start;
+import command.Stop;
 
 public interface Vue {
 	/**

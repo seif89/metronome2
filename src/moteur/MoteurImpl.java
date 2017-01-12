@@ -42,7 +42,7 @@ public class MoteurImpl implements Moteur {
 	public float gettempo() {
 		// TODO Auto-generated method stub
 		return tempo;
-	}
+	}  
 
 	@Override
 	public void settempos(int a) {

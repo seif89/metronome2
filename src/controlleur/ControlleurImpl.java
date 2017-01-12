@@ -1,6 +1,6 @@
 package controlleur;
 
-import Moteur;
+import moteur.Moteur;
 import vue.Vue;
 
 public class ControlleurImpl implements Controlleur {
